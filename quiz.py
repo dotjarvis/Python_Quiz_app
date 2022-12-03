@@ -29,48 +29,44 @@ Select your pair of questions?
     4. Health
     5. All
 """)
-    if int(question_set)==1:
+    if int(question_set) == 1:
         print('Welcome to sports world')
-        print("Where is the 2022, World cup held ")
-        print("Which team is cristiano Ronaldo playing for? ")
-        print('When will the next world cup be held')
-        print('How long does first half last(Not considering the extra time)')
-        print('Each team playing in a pitch requires 11 players')
+        print("Where is the 2022, World cup held ")  # Qatar
+        print("Which team is Cristiano Ronaldo in the world cup playing for? ")  # portugal
+        print('When will the next world cup be held')  # 2026
+        print('How long does first half last(Not considering the extra time)')  # 45 min
+        print('Each team playing in a pitch requires 11 players')  # true
 
     elif int(question_set) == 2:
         print('Welcome to Crypto space')
-        print("Which crypto has the largest market cap")
-        print("What is bitcoin ticket symbol")
-        print('Ethereum is the second worlds market cap cryptocurrency')
-        print('How many cryptocurrencies are there currently')
-        print('Cryptocurrency was first introduced in 2018. True or False')
+        print("Which crypto has the largest market cap")  # bitcoin
+        print("What is bitcoin ticket symbol")  # BTC
+        print('Ethereum is the second worlds market cap cryptocurrency')  # True
+        print('How many cryptocurrencies are there currently')  # range   21,910 +
+        print('Cryptocurrency was first introduced in 2018. True or False')  # False
 
     elif int(question_set) == 3:
         print('Politics leads the world')
-        print("Current president of USA")
-        print("Elections in the usa is done after every ___ years")
-        print('USA is made of how many states')
-        print('What does NATO stand for?')
-        print('What country is the world’s largest democracy?')
+        print("Current president of USA")  # Joe Biden
+        print("Elections in the usa is done after every ___ years")  # 4 Years
+        print('USA is made of how many states')  # 52
+        print('What does NATO stand for?')  # North Atlantic Treaty Organization
+        print('What country is the world’s largest democracy?')  # India
 
     elif int(question_set) == 4:
         print('All lives depends on Health and healthy living')
-        print("How much water do we need daily (in litters)?")
-        print('Corona was first discovered in the year')
-        print("Its advisable to avoid unhealthy foods. True or False")
+        print("How much water do we need daily (in litters)?")  # 2 liters
+        print('Corona was first discovered in the year')  # Nov. 17, 2019,
+        print("Its advisable to avoid unhealthy foods. True or False")  # True
         print("""
         The following foods are unhealthy except.
-        Deep Fried Foods
-        Fast Food
-        Excess Candy
-        Dark Green Vegetables and surplus water
-        """)
-        print('What is WHO in full')
+        A. Deep Fried Foods
+        B. Fast Food
+        C. Excess Candy
+        D. Dark Green Vegetables and surplus water
+        """)  # D
+        print('What is WHO in full')  # World Health Organisation
 
     elif int(question_set) == 5:
-        print('Welcome to Crypto space')
-        print("Which crypto has the largest market cap")
-        print("What is bitcoin ticket symbol")
-        print('Ethereum is the second worlds market cap cryptocurrency')
-        print('How many cryptocurrencies are there currently')
-        print('Cryptocurrency was first introduced in 2018. True or False')
+        # Execute all questions 1-4 in order
+        pass
